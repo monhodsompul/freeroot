@@ -24,8 +24,6 @@ if [ ! -e $ROOTFS_DIR/.installed ]; then
   echo "#"
   echo "#"
   echo "#######################################################################################"
-
-  read -p "Do you want to install Ubuntu? (YES/no): " install_ubuntu
 fi
 
 case $install_ubuntu in
